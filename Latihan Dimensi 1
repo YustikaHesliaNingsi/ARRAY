@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int Bilangan [5];
+int n, hasil=0;
+int main()
+{
+for (int n=0; n<5; ++n)
+{
+cout<<"Input Nilai Ke- "<<(n+1)<<":";
+cin>>Bilangan[n];
+}
+cout<<"Nilai yang Dimasukkan..."<<endl;
+for (int n = 0; n<5; ++n)
+{
+hasil+= Bilangan[n];
+cout<<"Hasil ke - "<<n<<"adalah:"<<hasil<<endl;
+}
+cout<<endl<<"Jumlah Seluruh Nilai:"<<hasil<<endl;
+return 0;
+}
